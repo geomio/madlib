@@ -1,3 +1,7 @@
 #letter {
   display: none;
 }
+
+body{
+  background-color: gainsboro;
+}

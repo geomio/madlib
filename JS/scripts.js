@@ -5,10 +5,10 @@ $(document).ready(function() {
     const daysInput= $("input#days").val();
     const formalityInput = $("input#formality").val();
 
-    $("#name").text(person1Input);
-    $("#title").text(person2Input);
-    $("#days").text(daysInput);
-    $("#formality").text(formalityInput);
+    $(".name").text(person1Input);
+    $(".title").text(person2Input);
+    $(".days").text(daysInput);
+    $(".formality").text(formalityInput);
     $("#letter").show();
   
     event.preventDefault();
