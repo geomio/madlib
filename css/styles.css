@@ -1,7 +1,20 @@
 #letter {
   display: none;
+  text-transform: capitalize;
+  margin-top: 2em;
+  margin-bottom: 2-em;
+  font-weight: bold;
+  font-size: large;
+}
+
+hr{
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 body{
   background-color: gainsboro;
 }
+
+
+
